@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
     
-Route::view('/','home');
-Route::view('/about','about');
-Route::view('/achivement', 'achivement');
+Route::view('/','home'); // Route for 'home.blade.php' page.
+Route::view('/about','about'); // Route for 'about.blade.php' page.
+Route::view('/achivement', 'achivement'); // Route for 'achivement.blade.php' page.
 
 
